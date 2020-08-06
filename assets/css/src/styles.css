@@ -93,3 +93,11 @@
 .cls-expanded + .cls-past-event-read-more {
     display: none
 }
+
+.cls-group-toggle-button {
+    display: inline-block;
+    width: 1.625rem;
+    height: 1.625rem;
+    line-height: 1.625rem;
+    text-align: center;
+}

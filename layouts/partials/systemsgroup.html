@@ -76,7 +76,7 @@
 
         <div data-groupIndex="{{ $.groupIndex }}" data-toggleClass="table-row" id="cls-group-toggle-{{ $.groupIndex }}" class="w-full table-row bg-transparent {{ $borderType }} {{ $.context.Site.Params.ComponentsBorders }} p-4 cursor-pointer cls-group-toggle">
             <div data-groupIndex="{{ $.groupIndex }}" data-toggleClass="table-row"  class="table-cell align-middle text-lg font-semibold p-4 cls-group-toggle">
-                <span data-groupIndex="{{ $.groupIndex }}" data-toggleClass="table-row" id="cls-group-icon-{{ $.groupIndex }}" class="bg-blue-lighter font-normal  rounded-sm px-2 py-1 mr-2 cls-group-toggle">{{ $toggleSymbol }}</span>
+                <span data-groupIndex="{{ $.groupIndex }}" data-toggleClass="table-row" id="cls-group-icon-{{ $.groupIndex }}" class="bg-blue-lighter font-normal rounded-sm mr-2 cls-group-toggle cls-group-toggle-button">{{ $toggleSymbol }}</span>
                 {{ $.currentGroup }}
             </div>
             <div data-groupIndex="{{ $.groupIndex }}" data-toggleClass="table-row" class="table-cell text-center align-middle p-4 cls-group-toggle">
