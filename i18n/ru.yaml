@@ -1,0 +1,86 @@
+############################################################
+## English language file
+############################################################
+
+- id: languageCode
+  translation: ru
+- id: languageName
+  translation: Русский
+- id: languageNameShort
+  translation: RUS
+
+- id: autoRefreshNotice
+  translation: Страница будет обновлена через&nbsp;<span id="js-cls-reload-countdown">{{ .secondsLeft }}</span>&nbsp;сек.
+- id: autoRefreshTitle
+  translation: Нажмите, чтобы обновить страницу сейчас
+
+- id: rss
+  translation: Подписаться через RSS
+
+# Summary status message
+- id: scheduled
+  translation: Запланировано
+
+- id: isDown
+  translation: Something's happening here...
+- id: isDisrupted
+  translation: Having a little bit of trouble...
+- id: isMonitoring
+  translation: Some systems being monitored...
+- id: isMaintenance
+  translation: Some systems under maintenance...
+- id: isOk
+  translation: Все в порядке
+
+# Components list status
+- id: disrupted
+  translation: Работа нарушена
+- id: down
+  translation: Отключение
+- id: ok
+  translation: OK
+- id: monitoring
+  translation: Мониторинг
+- id: maintenance
+  translation: Тех. работы
+
+# Events
+- id: incidentHistory
+  translation: Прошлые события
+
+- id: resolved
+  translation: Решено
+- id: inUnderAMinute
+  translation: менее минуты
+
+- id: noEventsTitle
+  translation: О событиях не сообщалось.
+- id: noEventsDesc
+  translation: Ни одного инцидента не зарегистрировано.
+
+- id: prev
+  translation: Более новые
+- id: next
+  translation: Более старые
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Вернуться
+- id: backToTop
+  translation: Наверх
+- id: backToList
+  translation: Вернуться к списку событий
+
+- id: notFound
+  translation: Мы не смогли найти эту страницу.
+- id: notFoundText
+  translation: Возможно, мы переместили эту страницу на другой адрес или вообще удалили ее. Извините за беспокойство!
+
+# This string will be displayed after each time displayed
+# Set it for instance to " UTC" to indicate UTC times
+# or a specific time zone, ie " America/New_York"
+#- id: timezoneString
+#  translation: ""
