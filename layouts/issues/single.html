@@ -149,7 +149,9 @@
             <div class="{{ .Site.Params.SmallBodyBackground }} md:flex justify-between p-4">
                 <div>
                     <div class="font-bold text-xl my-2 {{ .Site.Params.ScheduledBodyTitleColor }}">{{ .Title }}</div>
+                    {{ if .Content }}
                     <div class="my-4">{{ .Content | safeHTML }}</div>
+                    {{ end }}
                 </div>
                 {{ with .Params.twitterFeed }}
                 {{ if eq $.Params.status "in_progress"}}

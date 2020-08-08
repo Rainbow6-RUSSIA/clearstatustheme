@@ -39,7 +39,9 @@
 
     <div class="p-4 {{ .Site.Params.ScheduledBodyBackground }}">
         <div class="font-bold text-xl my-2 {{ .Site.Params.ScheduledBodyTitleColor }}">{{ .Title }}</div>
+        {{ if .Content }}
         <div class="my-4">{{ .Content | safeHTML }}</div>
+        {{ end }}
     </div>
 
     <div class="flex items-center justify-between {{ .Site.Params.ScheduledBodyBackground }} rounded-b px-4 pb-4 pr-4">

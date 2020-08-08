@@ -54,7 +54,9 @@
 
     <div class="px-4 pt-4 {{ .Site.Params.PastBodyBackground }}">
         <div class="font-bold text-xl my-2 {{ .Site.Params.ScheduledBodyTitleColor }}">{{ .Title }}</div>
+        {{ if .Content }}
         <div class="cls-past-event-content my-4">{{ .Content | safeHTML }}</div>
+        {{ end }}
         <div class="cls-past-event-read-more border-t border-dotted border-grey-light text-sm text-center text-grey-darker">
             <span class="cls-read-more bg-blue-lighter rounded-sm px-6 py-2 cursor-pointer">+</span>
         </div>
