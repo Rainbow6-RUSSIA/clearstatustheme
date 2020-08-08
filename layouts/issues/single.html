@@ -102,7 +102,7 @@
 
             <div class="{{ $severityBgColor }} rounded-t flex items-center justify-between px-4 py-2">
                 <time datetime="{{ .Date }}" class="py-1 no-underline {{ $severityColor }}">
-                    {{ .Date.Format $dateFormat }}{{ .Site.Params.TimezoneString }}{{ i18n "timezoneString" }}
+                    {{ .Date.Local.Format $dateFormat }}{{ .Site.Params.TimezoneString }}{{ i18n "timezoneString" }}
                 </time>
 
                 {{ if eq .Params.status "scheduled" }}
