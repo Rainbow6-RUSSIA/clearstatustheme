@@ -17,7 +17,12 @@ collections:
     fields:
       - {label: "Section", name: "section", widget: "hidden", default: "issue"}
       - {label: "Title", name: "title", widget: "string", hint: "A short descriptive title for the event."}
-      - {label: "Date", name: "date", widget: "datetime", hint: "The date and time at which the event started or is scheduled."}
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        hint: "The date and time at which the event started or is scheduled."
+        dateFormat: true
+        timeFormat: true
       - label: "Status"
         name: "status"
         hint: "The current state of the affected systems."
@@ -70,6 +75,8 @@ collections:
         required: false
         widget: "datetime"
         hint: ""
+        dateFormat: true
+        timeFormat: true
       - label: "Affected systems"
         name: "affected"
         hint: "Which of your systems are affected by the event. Use exact same name as in your config file."
